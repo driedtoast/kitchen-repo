@@ -1,16 +1,16 @@
 
-!http://cdn.home-designing.com/wp-content/uploads/2009/05/1946-kitchen-582x427.jpg!
+!=http://cdn.home-designing.com/wp-content/uploads/2009/05/1946-kitchen-582x427.jpg!
 
 h1. Overview
 
 This is my maven 2 repo, nothing much to see here.
 
 I add stuff via:
-```sh
+@
 mvn -DaltDeploymentRepository=snapshot-repo::default::file:../kitchen-repo/snapshots clean deploy
 mvn -DaltDeploymentRepository=release-repo::default::file:../kitchen-repo/releases clean deploy
 
 cd ../kitchen-repo/snapshots && git add * && git commit -m " updating foo" && git push origin master
-```
+@
 
 Got the idea from here "http://cemerick.com/2010/08/24/hosting-maven-repos-on-github/":http://cemerick.com/2010/08/24/hosting-maven-repos-on-github/
