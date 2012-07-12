@@ -15,8 +15,7 @@ I add stuff via:
 
 I use stuff via:
 
-pre..
- <repositories>
+pre.. <repositories>
     <repository>
         <id>kitchen-snapshots</id>
         <url>https://raw.github.com/driedtoast/kitchen-repo/master/snapshots</url>
