@@ -15,7 +15,7 @@ I add stuff via:
 
 I use stuff via:
 
-pre.
+pre..
  <repositories>
     <repository>
         <id>kitchen-snapshots</id>
