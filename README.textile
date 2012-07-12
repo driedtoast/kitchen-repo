@@ -7,13 +7,12 @@ This is my maven 2 repo, nothing much to see here.
 
 I add stuff via:
 
-@mvn -DaltDeploymentRepository=snapshot-repo::default::file:../kitchen-repo/snapshots clean deploy@
-@mvn -DaltDeploymentRepository=release-repo::default::file:../kitchen-repo/releases clean deploy@
+pre.. mvn -DaltDeploymentRepository=snapshot-repo::default::file:../kitchen-repo/snapshots clean deploy
+mvn -DaltDeploymentRepository=release-repo::default::file:../kitchen-repo/releases clean deploy
+cd ../kitchen-repo/snapshots && git add * && git commit -m " updating foo" && git push origin master
 
-@cd ../kitchen-repo/snapshots && git add * && git commit -m " updating foo" && git push origin master@
+p. I use stuff via:
 
-
-I use stuff via:
 
 pre.. <repositories>
     <repository>
