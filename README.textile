@@ -1,6 +1,10 @@
 
+!http://cdn.home-designing.com/wp-content/uploads/2009/05/1946-kitchen-582x427.jpg!
+
 h1. Overview
 This is my maven 2 repo, nothing much to see here.
+
+
 
 I add stuff via:
 mvn -DaltDeploymentRepository=snapshot-repo::default::file:../kitchen-repo/snapshots clean deploy
