@@ -17,12 +17,14 @@ p. I use stuff via:
 pre.. <repositories>
     <repository>
         <id>kitchen-snapshots</id>
-        <url>https://raw.github.com/driedtoast/kitchen-repo/master/snapshots</url>
+        <url>https://github.com/driedtoast/kitchen-repo/raw/master/snapshots</url>
     </repository>
     <repository>
         <id>kitchen-releases</id>
-        <url>https://raw.github.com/driedtoast/kitchen-repo/master/releases</url>
+        <url>https://github.com/driedtoast/kitchen-repo/raw/master/releases</url>
     </repository>
   </repositories>
+
+pre.. maven { url 'https://github.com/driedtoast/kitchen-repo/raw/master/releases' }
 
 bq. Got the idea from here "http://cemerick.com/2010/08/24/hosting-maven-repos-on-github/":http://cemerick.com/2010/08/24/hosting-maven-repos-on-github/
